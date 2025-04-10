@@ -37,7 +37,7 @@ Variáveis:</p>
 <p>Métodos:</p>
 <ul>
 <li><strong>Start();</strong> ao iniciar o jogo, deixa o cursor invisível e travado no centro da tela, com <em><strong>CursorLockMode.Locked</strong></em>.</li>
-<li>**Input.GetAxis(“Mouse X”, "Mouse Y); ** retorna valores baseado nos movimentos do mouse.</li>
+<li><strong>Input.GetAxis(“Mouse X”, "Mouse Y);</strong> retorna valores baseado nos movimentos do mouse.</li>
 <li><strong>Mathf.Clamp(cameraVertical, -90, 90);</strong> impede que a rotação da câmera seja menor que -90 (jogador olhando para o chão) ou maior que 90 (olhando para cima).</li>
 <li><strong>Quaternion.Euler(cameraVertical, 0, 0);</strong> transforma os três valores em uma variável para rotação. Seu valor é atribuído a <em>transform.localRotation</em>, rotacionando a câmera verticalmente.</li>
 <li><strong>playerTransform.Rotate(Vector3.up * mouseX);</strong> rotaciona o jogador no eixo Y (Vector3.up) de acordo com o movimento horizontal do mouse. Como a câmera está contida nele, ela é rotacionada também.</li>
