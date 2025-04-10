@@ -20,7 +20,7 @@ Variáveis:</p>
 <p>Métodos:</p>
 <ul>
 <li><strong>FixedUpdate();</strong> é usado ao invés do Update pois se mantém consistente não importa a velocidade da máquina.</li>
-<li><strong>Input.GetAxis(“Horizontal”, “Vertical”)</strong> retorna certos valores quando o jogador pressiona as teclas de movimento.</li>
+<li><strong> Input.GetAxis(“Horizontal”, “Vertical”)</strong> retorna certos valores quando o jogador pressiona as teclas de movimento.</li>
 <li><strong>playerController.Move();</strong> move o <em>CharacterController</em> do objeto do jogador e o objeto em si, baseado na tecla apertada e a posição atual, relativamente à velocidade (variável <strong>speed</strong>).</li>
 </ul>
 </li>
