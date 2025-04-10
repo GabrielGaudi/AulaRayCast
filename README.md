@@ -3,13 +3,15 @@
 <ol>
 <li>Organização e preparação<br>
 Após a cena ser criada, foram adicionadas pastas para os scripts, materiais, prefabs e prints para documentação dentro de <em>Assets</em>. Na cena, foi criado um objeto contendo um <em>CharacterController</em> e a câmera para o jogador, e um plano para o chão.<br>
-(imagens)</li>
+![image](https://github.com/user-attachments/assets/4dbd6fe2-ec2d-4d12-aa8b-ccc62ed2b6a2)
+</li>
 <li>Scripts básicos</li>
 </ol>
 <ul>
 <li>
 <p>PlayerMovement.cs: para movimentação do jogador pelo mapa<br>
-(imagem)<br>
+![image](https://github.com/user-attachments/assets/9a8fc2aa-c27a-45d8-a7b2-b2986c09c94b)
+<br>
 Variáveis:</p>
 <ul>
 <li><strong>speed;</strong> Variável float que determina o quão rápido o jogador vai se movimentar.</li>
@@ -26,7 +28,8 @@ Variáveis:</p>
 </li>
 <li>
 <p>CameraControl.cs: para movimentação da câmera com o mouse e a rotação do jogador de acordo com ela.<br>
-(imagem)<br>
+![image](https://github.com/user-attachments/assets/57145275-e0e4-4386-bc66-98eac824531e)
+<br>
 Variáveis:</p>
 <ul>
 <li><strong>lookSpeed;</strong> float que controla o quão rápido a câmera vai se mover com o movimento do mouse.</li>
@@ -47,7 +50,7 @@ Variáveis:</p>
 <ol start="3">
 <li>Script com Raycast (movimentação de objeto com a câmera)<br>
 GravityGun.cs<br>
-(imagem)</li>
+[(imagem)](https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/Script3.1.png?raw=true)</li>
 </ol>
 <ul>
 <li>
@@ -77,11 +80,14 @@ GravityGun.cs<br>
 <li>Adição de cubos com rigidbody para o jogador movimentar;</li>
 <li>Criação de um material para dar destaque aos cubos;</li>
 <li>Criação de um material para deixar o chão menos escuro;<br>
-(imagem)</li>
+![image](https://github.com/user-attachments/assets/12b0284d-2385-42cf-a999-4f30fc05e953)
+</li>
 <li>Camada nova para os objetos que vão interagir com o Raycast.<br>
-(imagem)</li>
+![image](https://github.com/user-attachments/assets/40b5b0e5-7660-4c4f-a058-28389789ce4c)
+</li>
 <li>Objeto vazio cuja posição será a do objeto que for segurado pelo jogador<br>
-(imagem)</li>
+![image](https://github.com/user-attachments/assets/bbf0873b-525f-4bd2-bdd3-e3274b9dbb11)
+</li>
 </ul>
 <ol start="5">
 <li>Implementação de Prefabs</li>
@@ -89,21 +95,27 @@ GravityGun.cs<br>
 <ul>
 <li>
 <p>Adicionar gameObject para o prefab<br>
-(imagem 5.1)</p>
+![image](https://github.com/user-attachments/assets/a779fc20-1859-446d-a8ab-be1456269724)
+</p>
 </li>
 <li>
 <p>Criar os materias que serão usados pelos prefabs<br>
-(imagem)</p>
+![image](https://github.com/user-attachments/assets/aa252bd2-5e62-47f1-865f-bdf818f1207f)
+</p>
 </li>
 <li>
 <p>Transfomar o objeto em prefab</p>
 </li>
 <li>
-<p>(imagem)</p>
+<p>![image](https://github.com/user-attachments/assets/33eb8a7b-fbfd-419b-adf9-2b98d2f626a4)
+</p>
 </li>
 <li>
 <p>Alterações no script para usar os prefabs<br>
-(imagem)<br>
+![image](https://github.com/user-attachments/assets/bfd5bb4b-6c48-47d0-98a5-631dc6dbfdce)
+![image](https://github.com/user-attachments/assets/e4bcbc3c-f33f-45a1-8c5a-009dbb4f218c)
+
+<br>
 Atributos:</p>
 <ul>
 <li><strong>canShoot;</strong> boolean, diz se o prefab pode ser atirado ou não.</li>
