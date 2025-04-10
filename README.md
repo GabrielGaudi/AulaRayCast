@@ -3,7 +3,8 @@
 <ol>
 <li>Organização e preparação<br>
 Após a cena ser criada, foram adicionadas pastas para os scripts, materiais, prefabs e prints para documentação dentro de <em>Assets</em>. Na cena, foi criado um objeto contendo um <em>CharacterController</em> e a câmera para o jogador, e um plano para o chão.<br>
-![image](Imagens/AssetsTab0.1.png)
+![AssetsTab0 1](https://github.com/user-attachments/assets/449e4e8d-e0f2-4fcc-bf67-7b689ce14fdd)
+
 </li>
 <li>Scripts básicos</li>
 </ol>
