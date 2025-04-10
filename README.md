@@ -1,7 +1,4 @@
----
-
-
----
+Feito por: Gabriel Gaudí Pozzi Rosalvo
 
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
@@ -127,7 +124,14 @@ Métodos:</p>
 <li><strong>yield return new WaitForSeconds(2);</strong> pausa a execução do código até que receba algum retorno, que nesse caso é dado pelo método <em>WaitForSeconds</em> após 2 segundos. Após isso, o jogador pode atacar denovo e o código retorna à execução normal.</li>
 </ul>
 <ol start="6">
+  
 <li>Vídeo da gameplay</li>
+
+
+https://github.com/user-attachments/assets/b964c8a0-51f2-4d65-8961-0896aa7f10e8
+
+
 <li>Relatório da dupla</li>
+Gabriel Gaudí Pozzi Rosalvo: fez tudinho
 </ol>
 
