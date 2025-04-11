@@ -8,11 +8,11 @@ Assertion failed on expression: 'SUCCEEDED(hr)'
 <h2 id="atividade-raycast-1104">Atividade Raycast 11/04</h2>
 <p>Processo de Desenvolvimento:</p>
 <ol>
-<li>Organização e preparação<br>
+<h2><li>Organização e preparação</h2><br>
 Após a cena ser criada, foram adicionadas pastas para os scripts, materiais, prefabs e prints para documentação dentro de <em>Assets</em>. Na cena, foi criado um objeto contendo um <em>CharacterController</em> e a câmera para o jogador, e um plano para o chão.<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/AssetsTab0.1.png" alt="AssetsTab0.1"><br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/Scene&amp;objects0.1.png?raw=true" alt="Scene&amp;Objects"></li>
-<li>Scripts básicos</li>
+<h2><li>Scripts básicos</h2></li>
 </ol>
 <ul>
 <li>
@@ -53,7 +53,7 @@ Variáveis:</p>
 </li>
 </ul>
 <ol start="3">
-<li>Script com Raycast (movimentação de objeto com a câmera)<br>
+<h2><li>Script com Raycast (movimentação de objeto com a câmera)</h2><br>
 GravityGun.cs<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/Script3.1.png?raw=true" alt="Rayscript"></li>
 </ol>
@@ -79,7 +79,7 @@ GravityGun.cs<br>
 </li>
 </ul>
 <ol start="4">
-<li>Alterações na cena para o Raycast</li>
+<h2><li>Alterações na cena para o Raycast</h2></li>
 </ol>
 <ul>
 <li>Adição de cubos com rigidbody para o jogador movimentar;</li>
@@ -93,7 +93,7 @@ GravityGun.cs<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/EmptyObjCreation4.3.png?raw=true" alt="Empty"></li>
 </ul>
 <ol start="5">
-<li>Implementação de Prefabs</li>
+<h2><li>Implementação de Prefabs</h2></li>
 </ol>
 <ul>
 <li>Adicionar gameObject para o prefab<br>
@@ -127,15 +127,15 @@ Métodos:</p>
 </ul>
 <ol start="6">
   
-<li>Vídeo da gameplay</li>
+<h2><li>Vídeo da gameplay</h2></li>
 
 
 https://github.com/user-attachments/assets/b964c8a0-51f2-4d65-8961-0896aa7f10e8
 
 
-<li>Relatório da dupla</li>
-Gabriel Gaudí Pozzi Rosalvo: fez os scripts, assets, documentação, tudo.
-_Assertion failed on expression: 'SUCCEEDED(hr)'_: apoio moral, presente durante todo o processo por motivos desconhecidos.
+<h2><li>Relatório da dupla</h2></li>
+Gabriel Gaudí Pozzi Rosalvo: fez os scripts, assets, documentação, tudo. <br>
+<em>Assertion failed on expression: 'SUCCEEDED(hr)'</em>: apoio moral, presente durante todo o processo por motivos desconhecidos.
 
 </ol>
 
