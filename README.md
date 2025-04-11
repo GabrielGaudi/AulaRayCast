@@ -1,4 +1,6 @@
 Feito por: Gabriel Gaudí Pozzi Rosalvo
+Assertion failed on expression: 'SUCCEEDED(hr)'
+
 
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
@@ -132,6 +134,8 @@ https://github.com/user-attachments/assets/b964c8a0-51f2-4d65-8961-0896aa7f10e8
 
 
 <li>Relatório da dupla</li>
-Gabriel Gaudí Pozzi Rosalvo: fez tudinho
+Gabriel Gaudí Pozzi Rosalvo: fez os scripts, assets, documentação, tudo.
+_Assertion failed on expression: 'SUCCEEDED(hr)'_: apoio moral, presente durante todo o processo por motivos desconhecidos.
+
 </ol>
 
