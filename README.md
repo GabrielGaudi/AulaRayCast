@@ -54,11 +54,12 @@ Variáveis:</p>
 </ul>
 <ol start="3">
 <h2><li>Script com Raycast (movimentação de objeto com a câmera)</h2><br>
-GravityGun.cs<br>
+<ul>
+  <li>GravityGun.cs</li><br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/Script3.1.png?raw=true" alt="Rayscript"></li>
 </ol>
-<ul>
-<li>
+
+
 <p>Atributos</p>
 <ul>
 <li><strong>looking;</strong> <em>Transform</em> de um objeto que é filho do objeto jogador, seguindo sua posição e rotação.</li>
@@ -66,13 +67,12 @@ GravityGun.cs<br>
 <li><strong>ray;</strong> variável do tipo <em>RaycastHit</em>, recebe e armazena informações do objeto acertado pelo Raycast.</li>
 <li><strong>ray.transform.position;</strong> define a posição do objeto acertado pelo Raycast como a posição do objeto vazio à frente da câmera (<strong>looking.transform.position</strong>).</li>
 </ul>
-</li>
-<li>
+
 <p>Métodos</p>
-</li>
-<li>
-<p><strong>LayerMask.GetMask(“Movable”)</strong> busca por uma camada com o nome “Movable” e coloca uma referência à ela na variável <strong>interactions</strong>.</p>
+
 <ul>
+<li><p><strong>LayerMask.GetMask(“Movable”)</strong> busca por uma camada com o nome “Movable” e coloca uma referência à ela na variável <strong>interactions</strong>.</p>
+
 <li><strong>Physics.Raycast(transform.position, transform.forward, out RaycastHit ray, 30f, interactions)</strong> cria um raio (linha reta), partindo da posição da câmera (<em>transform.position</em>); indo para onde o jogador/câmera estão olhando (<em>transform.forward</em>); com um tamanho/alcance de 30; onde as informações do objeto colidido ficarão na variável <em>ray</em> e apenas colidirá com objetos da camada <em>interactions</em>.</li>
 <li><strong>Input.GetMouseButton(1)</strong> retorna <em>true</em> se o botão direito do mouse (representado pelo “1”) for pressionado. Ao clicar com o mouse, se o Raycast detectar um objeto, a condicional será verdadeira.</li>
 </ul>
@@ -88,7 +88,7 @@ GravityGun.cs<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/CubeRigidBody4.12.png?raw=true" alt="CubeRB"><br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/Cubes&amp;Materials4.1.png?raw=true" alt="CM"></li>
 <li>Camada nova para os objetos que vão interagir com o Raycast.<br>
-(imagem)<img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/LayerCreate4.2.png?raw=true" alt="Layer"></li>
+<img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/LayerCreate4.2.png?raw=true" alt="Layer"></li>
 <li>Objeto vazio cuja posição será a do objeto que for segurado pelo jogador<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/EmptyObjCreation4.3.png?raw=true" alt="Empty"></li>
 </ul>
@@ -102,7 +102,6 @@ GravityGun.cs<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/MaterialsForPrefabs5.21.png?raw=true" alt="MtPrefab"></li>
 <li>Transfomar o objeto em prefab<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/GameObjectToPrefab5.3.png?raw=true" alt="CreatePrefab"></li>
-<li>Criação</li>
 <li>Alterações no script para usar os prefabs<br>
 <img src="https://github.com/GabrielGaudi/AulaRayCast/blob/main/Imagens/ScriptPrefabs5.5.png?raw=true" alt="AtributosPrefabs"><br>
 Atributos:
