@@ -1,5 +1,5 @@
 Feito por: Gabriel Gaudí Pozzi Rosalvo
-Assertion failed on expression: 'SUCCEEDED(hr)'
+
 
 
 <blockquote>
